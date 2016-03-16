@@ -19,7 +19,7 @@ public class HomePageActivity extends BaseActivity {
 
     private static final String TAG = HomePageActivity.class.getSimpleName();
     private CategoryTabStrip tabs;
-    private ViewPager pager; 
+    private ViewPager pager;
     private MyPagerAdapter adapter;
 
     @Override
@@ -30,7 +30,7 @@ public class HomePageActivity extends BaseActivity {
         initListener();
         tabs = (CategoryTabStrip) findViewById(R.id.category_strip);
         pager = (ViewPager) findViewById(R.id.view_pager);
-        adapter = new MyPagerAdapter(getSupportFragmentManager());
+        adapter = new MyPagerAdapter(getSupportFragmentManager());   
 
         pager.setAdapter(adapter);
 

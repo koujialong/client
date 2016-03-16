@@ -28,7 +28,7 @@ import java.util.List;
 public class TwoFragment extends Fragment {
     private static final String TAG = TwoFragment.class.getSimpleName();
     private View view;
-    private ListView list;  
+    private ListView list;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

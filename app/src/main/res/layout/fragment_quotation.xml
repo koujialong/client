@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/quotation_cardbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_cardtitlebar">
+
+        <TextView
+            android:id="@+id/quotation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/padding_titlebar"
+            android:singleLine="true"
+            android:text="行情"/>
+
+        <TextView
+            android:id="@+id/quotation_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:paddingRight="@dimen/padding_titlebar"
+            android:singleLine="true"
+            android:text="更多>"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/quotation_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quotation_cardbar"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_quotation_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:singleLine="true"
+                android:text="白银10g"/>
+
+            <TextView
+                android:id="@+id/price_quotation_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:text="32，00"/>
+
+            <TextView
+                android:id="@+id/trend_quotation_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:text="+53，00"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_quotation_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:singleLine="true"
+                android:text="白银10g"/>
+
+            <TextView
+                android:id="@+id/price_quotation_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:text="32，00"/>
+
+            <TextView
+                android:id="@+id/trend_quotation_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:text="53，00"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_quotation_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:singleLine="true"
+                android:text="白银10g"/>
+
+            <TextView
+                android:id="@+id/price_quotation_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:text="32，00"/>
+
+            <TextView
+                android:id="@+id/trend_quotation_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:text="53，00"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

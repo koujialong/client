@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="height_home_footbar">58dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- 文字大小 -->
+    <dimen name="text_size_xmicro">10sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_medium">15sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">22sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!-- titlebar -->
+    <dimen name="height_titlebar">49dp</dimen>
+    <dimen name="padding_titlebar">8dp</dimen>
+
+    <!-- 首页card -->
+    <dimen name="padding_card">7dp</dimen>
+    <dimen name="height_cardtitlebar">42dp</dimen>
+
+    <dimen name="sliding_menu_width">80dp</dimen>
+
+    <dimen name="title_bar_height">44.0dip</dimen>
+    <dimen name="head_size">28.0dip</dimen>
+    <dimen name="top_category_height">40.0dip</dimen>
+    <dimen name="category_tab_text">15.0sp</dimen>
+</resources>

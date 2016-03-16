@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 背景颜色 -->
+    <color name="black">#000000</color>
+    <color name="bg1_whole">#dfe2e6</color>
+    <color name="bg2_title">#ebecf0</color>
+    <color name="bg3_screen">#e8e9ed</color>
+    <color name="bg4_default">#dadde0</color>
+    <color name="bg5_content">#e7ebee</color>
+    <color name="bg7_title">#f2ebecf0</color>
+    <color name="bg_press_color">#d1d4d7</color>
+    <color name="bg_focus_color">#a6aaac</color>
+    <color name="bg_devider1">#dadcde</color>
+    <color name="bg_devider_b5b6b9">#b5b6b9</color>
+    <color name="bg_popup_menu">#f4f5f7</color>
+    <color name="bg_line_d8dadd">#d8dadd</color>
+    <!-- 10%透明度 -->
+    <color name="bg1_whole_semi_transparent">#e5dfe2e6</color>
+
+    <!-- 所有的Color都以c_开头，如果没有alpha通道，后接6位，有alpha通道，后接8位 -->
+    <color name="c_303032">#303032</color>
+    <color name="c_F64C47">#F64C47</color>
+    <color name="c_84868C">#84868C</color>
+    <color name="c_C62014">#C62014</color>
+    <color name="c_CDCECE">#CDCECE</color>
+    <color name="c_d4d5d8">#d4d5d8</color>
+    <color name="c_daddd0">#daddd0</color>
+    <color name="c_d5d8db">#d5d8db</color>
+    <color name="c_b2b2b2">#b2b2b2</color>
+    <color name="c_ccd1d7">#ccd1d7</color>
+    <color name="c_881e1f21">#881e1f21</color>
+    <color name="c_eb6100">#eb6100</color>
+    <color name="c_80000000">#80000000</color>
+    <color name="c_22261f">#22261f</color>
+    <color name="c_d7d8db">#d7d8db</color>
+    <color name="c_ffcb40">#FFCB40</color>
+    <color name="c_b1b3ba">#B1B3BA</color>
+    <color name="c_b1b4ba">#B1B4BA</color>
+    <color name="c_2b2c2c">#2B2C2C</color>
+    <color name="c_cccccc">#CCCCCC</color>
+    <color name="c_adafb3">#adafb3</color>
+    <color name="c_2b2a2f">#2b2a2f</color>
+    <color name="c_ea7426">#ea7426</color>
+    <color name="c_e8ebee">#e8ebee</color>
+    <color name="c_d1d4d7">#d1d4d7</color>
+    <color name="c_79797e">#79797e</color>
+    <color name="c_dadde0">#dadde0</color>
+    <color name="c_2b2a2b">#2b2a2b</color>
+    <color name="c_545454">#545454</color>
+
+    <!-- 字体颜色 -->
+    <color name="red">#d53c3c</color>
+    <color name="red2">#e14a4a</color>
+    <color name="green">#29a968</color>
+    <color name="blue">#1384d4</color>
+    <color name="dark1">#333334</color>
+    <color name="dark2">#404042</color>
+    <color name="dark3">#46494b</color>
+    <color name="gray1">#75767b</color>
+    <color name="gray2">#86878b</color>
+    <color name="gray3">#a7a7ab</color>
+    <color name="white1">#eeeef1</color>
+    <color name="white2">#ffffff</color>
+    <color name="golden1">#F47709</color>
+    <color name="transparent">#00000000</color>
+    <color name="dlna_cancle">#49494b</color>
+    <color name="toast_text_color">#68DC35</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="activity_bg_color">#fffafafa</color>
+    <color name="top_category_bar_background">#ffeeeeee</color>
+    <color name="divider">#ffdddddd</color>
+
+    <color name="category_tab_text">#ff707070</color>
+    <color name="category_tab_text_dark">#fffafafa</color>
+    <color name="category_tab_highlight_text">#fffafafa</color>
+    <color name="category_tab_highlight_text_dark">#ffd43d3d</color>
+    <color name="category_tab_highlight_bg">#ffd43d3d</color>
+    <color name="category_tab_highlight_dark_bg">#fffafafa</color>
+
+</resources>

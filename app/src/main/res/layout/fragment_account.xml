@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/account_cardbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_cardtitlebar">
+
+        <TextView
+            android:id="@+id/account_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/padding_titlebar"
+            android:singleLine="true"
+            android:text="账户"/>
+
+        <TextView
+            android:id="@+id/account_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:paddingRight="@dimen/padding_titlebar"
+            android:singleLine="true"
+            android:text="交易所"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/account_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_cardbar"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/key_account_realasset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:singleLine="true"
+                android:text="净资产"/>
+
+            <TextView
+                android:id="@+id/value_account_realasset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:paddingTop="@dimen/padding_titlebar"
+                android:text="53，456，00"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/key_account_trend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:singleLine="true"
+                android:text="盈亏"/>
+
+            <TextView
+                android:id="@+id/value_account_trend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_titlebar"
+                android:paddingTop="@dimen/padding_titlebar"
+                android:text="+56，00"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/account_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/account_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:paddingBottom="@dimen/padding_titlebar"
+        android:paddingRight="@dimen/padding_titlebar"
+        android:singleLine="true"
+        android:text="更多"/>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <!-- Base application theme. -->
+
+    <!-- 下拉刷新 -->
+    <style name="SohuProgressLarge" parent="@android:attr/progressBarStyleLarge">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressbar_foxtail_large</item>
+    </style>
+
+    <style name="SohuProgressSmall" parent="@android:attr/progressBarStyleSmall">
+        <item name="android:layout_width">21dp</item>
+        <item name="android:layout_height">21dp</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressbar_foxtail_small</item>
+    </style>
+
+    <!-- titlebar -->
+    <style name="Titlebar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/height_titlebar</item>
+        <item name="android:background">@color/bg1_whole</item>
+    </style>
+
+    <style name="Titlebar.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/dark1</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="main_title_bar_style">
+        <item name="android:background">@drawable/bg_titlebar_main</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+    </style>
+
+</resources>

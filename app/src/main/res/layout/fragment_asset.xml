@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="净资产\n85.00"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="持仓盈亏       +22.56" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="持仓保证金   +12.44" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="预扣保证金    0.00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="可用保证金   50.00" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/trade_hode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="持仓商品"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/trade_hode"
+            android:layout_toRightOf="@id/trade_hode"
+            android:padding="10dp"
+            android:text="总成本 85.00"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/trade_hode"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="止利止盈>"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+        <ListView
+            android:id="@+id/trade_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="提示：盈亏、盈利率未排除手续费：保本价=持仓均价+手续费"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="做多"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="做空"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

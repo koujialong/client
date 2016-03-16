@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ListView的搜索刷新头部 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roundProgress="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pull_to_refresh_head_content_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <!-- 内容 -->
+
+        <com.exchange.client.ui.widget.RotateImageView
+            android:id="@+id/pull_to_refresh_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dip"
+            android:src="@mipmap/refresh_progress_rotate_image" />
+
+        <com.exchange.client.ui.widget.PullDownCircleProgressBar
+            android:id="@+id/progress_pulldown_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dip"
+            android:background="@mipmap/refresh_progress_bg"
+            android:visibility="gone"
+            roundProgress:Inside_Interval="6"
+            roundProgress:Paint_Color="@color/red"
+            roundProgress:Paint_Width="6"
+            roundProgress:fill="false"
+            roundProgress:max="100" />
+
+        <TextView
+            android:id="@+id/pull_to_refresh_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dp"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:text="@string/hint_pull_to_refresh"
+            android:textColor="@color/gray1"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pull_to_refresh_bottom_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/list_divider"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+</LinearLayout>

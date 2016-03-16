@@ -19,7 +19,7 @@ public class HomePageActivity extends BaseActivity {
 
     private static final String TAG = HomePageActivity.class.getSimpleName();
     private CategoryTabStrip tabs;
-    private ViewPager pager;
+    private ViewPager pager; 
     private MyPagerAdapter adapter;
 
     @Override

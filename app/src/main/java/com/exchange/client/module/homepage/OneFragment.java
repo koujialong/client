@@ -28,7 +28,7 @@ import java.util.List;
 public class OneFragment extends Fragment {
     private static final String TAG = OneFragment.class.getSimpleName();
     private View view;
-    private ListView list;
+    private ListView list; 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

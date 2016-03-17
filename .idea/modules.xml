@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
+<<<<<<< HEAD
     <modules />
+=======
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/myClient.iml" filepath="$PROJECT_DIR$/myClient.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/myApp.iml" filepath="$PROJECT_DIR$/myApp.iml" />
+>>>>>>> 71e48421ecffcae58c8d0f6c1cb971f8de5bea4b
+    </modules>
+>>>>>>> 47dc3fabfeb118a60411bbe1c542b41f89f53206
   </component>
 </project>

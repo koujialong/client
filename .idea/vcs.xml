@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 47dc3fabfeb118a60411bbe1c542b41f89f53206
     <mapping directory="" vcs="" />
@@ -16,5 +17,8 @@
 >>>>>>> parent of 66ebcd6... 测试git
 =======
 >>>>>>> 47dc3fabfeb118a60411bbe1c542b41f89f53206
+=======
+    <mapping directory="" vcs="Git" />
+>>>>>>> origin/back
   </component>
 </project>
